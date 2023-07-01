@@ -15,7 +15,6 @@ public class CC {
 		connection=DriverManager.getConnection(properties.getUrl(),properties.getUsername(),properties.getPassword());
 		
 	} catch (Exception e) {
-		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
 	return connection; 
